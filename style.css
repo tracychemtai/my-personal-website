@@ -100,17 +100,24 @@ height: 200px;
 }
 
 footer {
-    height: 70px;
+    height: 100px;
     background-color: beige;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    flex-direction: column;
+    width: 1500px;
+
 }
 
 .Main {
     background-image: url(https://img.freepik.com/free-photo/natural-abstract-shadows_23-2149054715.jpg?t=st=1710672913~exp=1710676513~hmac=081905d1bfb67660ac9dd735f5ec078c7c67ec9b59aef6dcd1e66af4586707ca&w=360);
-max-height: 100vh;
-max-width: 100%;
+height: 100vh;
+width: 100%;
+position: relative;
 }
 
 section {
@@ -125,4 +132,5 @@ font-size: xx-small;
 display: flex;
 justify-content: center;
 align-items: center;
+}
 }
