@@ -1,0 +1,128 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none ;
+   margin: 0%;
+   padding: 0%;
+  
+
+h1 {
+    color: black;
+    background-color: azure;
+    border-color: beige;
+    text-align: center;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: rgb(66, 4, 4); 
+    background-color: antiquewhite ;
+}
+.navbar_items ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.about{
+    margin: 0 auto;
+    padding : 20px;
+    color: brown;
+    text-align: left;
+    color: aliceblue;
+    /*TRBL*/
+    /*TB-LR-0-20PX*/
+}
+.about h1{
+text-align: center;
+color: black;
+}
+
+.about p {
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    color: aqua;
+}
+.contact {
+margin: auto;
+padding: 20px;
+text-align: right;
+color: black;
+/*TRBL*/
+/*TB-LR-0-20PX*/
+}
+
+
+.container{
+    display:flex;
+    width:300px;
+    height:300px:
+  }
+
+.content {
+    display: flex;
+}
+
+.container {
+    flex: 1; /* Take up remaining space */
+    margin-right: 20px; /* Gap between containers */
+}
+
+.container2 {
+    flex: 1; /* Take up remaining space */
+}
+
+
+.navbar__items {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.container section {
+    padding: 50px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: max-content;
+    .container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto; 
+    }
+}
+img {
+display: flex;
+width: 200px;
+height: 200px;
+}
+
+footer {
+    height: 70px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main {
+    background-image: url(https://img.freepik.com/free-photo/natural-abstract-shadows_23-2149054715.jpg?t=st=1710672913~exp=1710676513~hmac=081905d1bfb67660ac9dd735f5ec078c7c67ec9b59aef6dcd1e66af4586707ca&w=360);
+max-height: 100vh;
+max-width: 100%;
+}
+
+section {
+  display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+section #h2{
+font-size: xx-small;
+display: flex;
+justify-content: center;
+align-items: center;
+}
